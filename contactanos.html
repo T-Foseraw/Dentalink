@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="materialize/css/materialize.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Contáctanos</title>
+</head>
+
+<body>
+    <!-- Menú -->
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper blue">
+                <li data-target="mobile-demo" class="sidenav-trigger waves-effect waves-light blue"><i
+                        class="large material-icons">menu</i></li>
+                <a href="Inicio.html"><img class="brand-logo center responsive-img" width="200px"
+                        src="img/logo blanco.png" alt=""></a>
+
+                <form>
+
+                    <div class="input-field right hide-on-med-and-down">
+                        <input id="search" type="search" required>
+                        <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                        <i class="material-icons">close</i>
+                    </div>
+                </form>
+            </div>
+        </nav>
+
+    </div>
+
+    <!-- Sidenav -->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="Inicio.html">Inicio<i class="material-icons left">home</i></a></li>
+        <li><a href="nutricion.html">Nutrición<i class="material-icons left">local_dining</i></a></li>
+        <li><a href="conocenos.html">Conocénos<i class="material-icons left">group</i></a></li>
+        <li><a href="contactanos.html">Contáctanos<i class="material-icons left">local_phone</i></a></li>
+    </ul>
+
+    <img src="img/banner contact.jpg" width="100%" alt="">
+
+    <div class="container">
+        <h5>¿Tienes alguna consulta?</h5>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">Nombre</label>
+                    </div>
+
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Apellidos</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email_inline" type="email" class="validate ">
+                        <label for="email">Correo electrónico</label>
+                        <span class="helper-text" data-error="wrong" data-success="right"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Mensaje</label>
+                    </div>
+                  </div>
+
+                  <button class="btn waves-effect waves-light blue" type="submit" >Enviar
+                    <i class="material-icons right">send</i>
+                  </button>
+                  
+            </form>
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+
+
+    <footer class="page-footer blue">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h6 class="white-text">¿DÓNDE ENCONTRARNOS?</h6>
+                    <p class="grey-text text-lighten-4">
+                        C/ Herrea #3,
+                        PLaza paniagua, Distrito Nacional
+                    </p>
+                    <h6 class="white-text">Teléfonos</h6>
+                    <p class="grey-text text-lighten-4">
+                        809-123-5555
+                        <br>
+                        809-888-9999
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h6 class="white-text">Síguenos</h6>
+                    <ul>
+                        <li class="waves-effect waves-light blue"><img width="50px" src="img/logo fb.png" alt=""></li>
+                        <li class="waves-effect waves-light blue"><img width="50px" src="img/logo ig.png" alt=""></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Copyright © 2020 Dentalink
+            </div>
+        </div>
+    </footer>
+
+    <script src="materialize/js/materialize.js"></script>
+
+</body>
